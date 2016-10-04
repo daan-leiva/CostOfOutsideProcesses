@@ -38,6 +38,7 @@
             this.includeAllOpsCheckBox = new System.Windows.Forms.CheckBox();
             this.rowLabel = new System.Windows.Forms.Label();
             this.groupByJobsCheckBox = new System.Windows.Forms.CheckBox();
+            this.scrapTypeComboBox = new System.Windows.Forms.ComboBox();
             ((System.ComponentModel.ISupportInitialize)(this.detailsDataGridView)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.totalsDataGridView)).BeginInit();
             this.SuspendLayout();
@@ -154,11 +155,20 @@
             this.groupByJobsCheckBox.Text = "Group By Jobs";
             this.groupByJobsCheckBox.UseVisualStyleBackColor = true;
             // 
+            // scrapTypeComboBox
+            // 
+            this.scrapTypeComboBox.FormattingEnabled = true;
+            this.scrapTypeComboBox.Location = new System.Drawing.Point(1245, 48);
+            this.scrapTypeComboBox.Name = "scrapTypeComboBox";
+            this.scrapTypeComboBox.Size = new System.Drawing.Size(141, 23);
+            this.scrapTypeComboBox.TabIndex = 10;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1400, 513);
+            this.Controls.Add(this.scrapTypeComboBox);
             this.Controls.Add(this.groupByJobsCheckBox);
             this.Controls.Add(this.rowLabel);
             this.Controls.Add(this.includeAllOpsCheckBox);
@@ -193,6 +203,7 @@
         private System.Windows.Forms.CheckBox includeAllOpsCheckBox;
         private System.Windows.Forms.Label rowLabel;
         private System.Windows.Forms.CheckBox groupByJobsCheckBox;
+        private System.Windows.Forms.ComboBox scrapTypeComboBox;
     }
 }
 
